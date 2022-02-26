@@ -20,4 +20,4 @@ Second one is my personal modification with these changes:
 - Aqua blue color in menus is changed to gray
 - the shape of the buttons is more rounded
 
-
+![Notifications](images/Notifications.png "Notifications")
