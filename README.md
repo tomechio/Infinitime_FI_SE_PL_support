@@ -8,7 +8,7 @@ There are two versions that you can try:
 
 First one is pure Infinitime with updated special characters (FI, SE, PL)
 
-[click here](www.google.com)
+[click here](https://github.com/tomechio/Infinitime_FI_SE_PL_support/releases/download/InfiniTime/pinetime-mcuboot-app-dfu-1.8.0-FI-SE-PL.zip)
 
 Second one is my personal modification with these changes:
 - support for FI, SE, PL special characters
@@ -17,4 +17,4 @@ Second one is my personal modification with these changes:
 - Aqua blue color in menus is changed to gray
 - the shape of the buttons is more rounded
 
-[click here](www.google.com)
+[click here](https://github.com/tomechio/Infinitime_FI_SE_PL_support/releases/download/InfiniTime/pinetime-mcuboot-app-dfu-1.8.0-FI-SE-PL-mod.zip)
