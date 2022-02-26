@@ -7,7 +7,8 @@ The font modification is first tested on InfiniSim and then on my personal seale
 There are two versions that you can try:
 
 First one is pure Infinitime with updated special characters (FI, SE, PL)
-[pure] (/releases/download/InfiniTime/pinetime-mcuboot-app-dfu-1.8.0-FI-SE-PL.zip)
+
+[click here](www.google.com)
 
 Second one is my personal modification with these changes:
 - support for FI, SE, PL special characters
