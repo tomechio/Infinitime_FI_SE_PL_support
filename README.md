@@ -16,3 +16,5 @@ Second one is my personal modification with these changes:
 - notification texts are changed from yellow to white
 - Aqua blue color in menus is changed to gray
 - the shape of the buttons is more rounded
+
+[click here](www.google.com)
