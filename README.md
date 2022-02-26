@@ -21,3 +21,8 @@ Second one is my personal modification with these changes:
 - the shape of the buttons is more rounded
 
 ![Notifications](images/Notifications.png "Notifications")
+![QuickSettings](images/QuickSettings.png "QuickSettings")
+![Settings](images/Settings.png "Settings")
+![WatchFace](images/WatchFace.png "WatchFace")
+![Applications](images/Applications.png "Applications")
+![AlarmClock](images/AlarmClock.png "AlarmClock")
