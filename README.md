@@ -1,4 +1,4 @@
-Infinitime font support for Finnish, Swedish and Polish languages.
+## Infinitime font support for Finnish, Swedish and Polish languages.
 
 From the main font of Infinitime the Cyrillic characters are replaced with special characters of the Finnish, Swedish and Polish languages.
 
