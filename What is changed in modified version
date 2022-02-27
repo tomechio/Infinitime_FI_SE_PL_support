@@ -1,0 +1,91 @@
+// Added characters to jetbrains_mono_bold_22.c
+These characters are used to replace Cyrillic characters: ÅåÄäÖöĄąĆćĘęŁłŃńÓóŚśŹźŻż
+Remember to rename file from -22.c to -20.c before using it. This way you don't have to modify the other files to make the bigger font work.
+
+// Changes in Tile.cpp
+// original
+lv_obj_set_size(btnm1, LV_HOR_RES - 16, LV_VER_RES - 60);
+// modified
+lv_obj_set_size(btnm1, LV_HOR_RES - 16, LV_VER_RES - 90);
+
+// original
+lv_obj_set_style_local_radius(btnm1, LV_BTNMATRIX_PART_BTN, LV_STATE_DEFAULT, 20);
+// modified
+lv_obj_set_style_local_radius(btnm1, LV_BTNMATRIX_PART_BTN, LV_STATE_DEFAULT, 60);
+
+// original
+lv_obj_set_style_local_bg_opa(btnm1, LV_BTNMATRIX_PART_BTN, LV_STATE_DEFAULT, LV_OPA_20);
+// modified
+lv_obj_set_style_local_bg_opa(btnm1, LV_BTNMATRIX_PART_BTN, LV_STATE_DEFAULT, LV_OPA_100);
+
+// original
+lv_obj_set_style_local_bg_color(btnm1, LV_BTNMATRIX_PART_BTN, LV_STATE_DEFAULT, LV_COLOR_AQUA);
+// modified
+lv_obj_set_style_local_bg_color(btnm1, LV_BTNMATRIX_PART_BTN, LV_STATE_DEFAULT, lv_color_hex(0x111111));
+
+// Notifications.cpp //
+// original
+lv_obj_set_style_local_bg_color(container1, LV_CONT_PART_MAIN, LV_STATE_DEFAULT, lv_color_hex(0x222222));
+// modified
+lv_obj_set_style_local_bg_color(container1, LV_CONT_PART_MAIN, LV_STATE_DEFAULT, lv_color_hex(0x111111));
+
+// original
+lv_obj_set_style_local_text_color(alert_subject, LV_LABEL_PART_MAIN, LV_STATE_DEFAULT, LV_COLOR_ORANGE);
+// modified
+lv_obj_set_style_local_text_color(alert_subject, LV_LABEL_PART_MAIN, LV_STATE_DEFAULT, LV_COLOR_WHITE);
+
+// original
+lv_obj_set_style_local_text_color(alert_subject, LV_LABEL_PART_MAIN, LV_STATE_DEFAULT, LV_COLOR_ORANGE);
+// modified
+lv_obj_set_style_local_text_color(alert_subject, LV_LABEL_PART_MAIN, LV_STATE_DEFAULT, LV_COLOR_WHITE);
+
+//added to accept button
+lv_obj_set_style_local_radius(bt_accept, LV_LABEL_PART_MAIN, LV_STATE_DEFAULT, 60);
+//added to reject button
+lv_obj_set_style_local_radius(bt_reject, LV_LABEL_PART_MAIN, LV_STATE_DEFAULT, 60);
+//added to mute button
+lv_obj_set_style_local_radius(bt_mute, LV_LABEL_PART_MAIN, LV_STATE_DEFAULT, 60);
+
+// original
+lv_label_set_text(alert_subject, "Incoming call from");
+// modified
+lv_label_set_text(alert_subject, "Incoming call:");
+
+// QuickSettings.cpp //
+// original
+lv_style_set_radius(&btn_style, LV_STATE_DEFAULT, buttonHeight / 4);
+// modified
+lv_style_set_radius(&btn_style, LV_STATE_DEFAULT, buttonHeight / 2);
+
+// Music.cpp //
+// original
+lv_style_set_bg_color(&btn_style, LV_STATE_DEFAULT, LV_COLOR_AQUA);
+// modified
+lv_style_set_bg_color(&btn_style, LV_STATE_DEFAULT, lv_color_hex(0x111111));
+
+// original
+lv_style_set_bg_opa(&btn_style, LV_STATE_DEFAULT, LV_OPA_20);
+// modified
+lv_style_set_bg_opa(&btn_style, LV_STATE_DEFAULT, LV_OPA_100);
+
+// Twos //
+// original
+lv_obj_align(scoreText, nullptr, LV_ALIGN_IN_TOP_LEFT, 0, 10);
+// modified
+lv_obj_align(scoreText, nullptr, LV_ALIGN_IN_TOP_LEFT, 0, 0);
+
+// List.cpp //
+// original
+lv_obj_set_style_local_bg_opa(itemApps[i], LV_BTN_PART_MAIN, LV_STATE_DEFAULT, LV_OPA_20);
+// modified
+lv_obj_set_style_local_bg_opa(itemApps[i], LV_BTN_PART_MAIN, LV_STATE_DEFAULT, LV_OPA_100);
+
+// original
+lv_obj_set_style_local_bg_color(itemApps[i], LV_BTN_PART_MAIN, LV_STATE_DEFAULT, LV_COLOR_AQUA);
+// modified
+lv_obj_set_style_local_bg_color(itemApps[i], LV_BTN_PART_MAIN, LV_STATE_DEFAULT, lv_color_hex(0x111111));
+
+// original
+lv_obj_set_style_local_text_color(labelBtIco, LV_LABEL_PART_MAIN, LV_STATE_DEFAULT, LV_COLOR_YELLOW);
+// modified
+lv_obj_set_style_local_text_color(labelBtIco, LV_LABEL_PART_MAIN, LV_STATE_DEFAULT, LV_COLOR_ORANGE);
